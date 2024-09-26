@@ -1,0 +1,38 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+{
+    string product;
+    string color;
+    int stock = 5;
+
+    cout << "Please, type the product" << endl;
+    cin >> product;
+
+    if (produto != "helmet" && product != "Helmt") {
+        cout << "Product out of stock" << endl;
+    } else {
+            cout << "helmet in stock: " << stock << endl;
+            cout << "Please, type the color desired" << endl;
+            cin >> color;
+        if (color == "green" || color == "Green") {
+            cout << "green helmet in stock: 2" << endl;
+            cout << "total value $ 10,00";
+        } else if (color == "red" || cor ==  "Red") {
+            cout << "red helmet in stock: 1" << endl;
+            cout << "total value $ 50,00";
+        } else if (color == "blue" || cor ==  "Blue") {
+            cout << "Blue helmet in stock: 2" << endl;
+            cout << "total value $ 30,00";
+        } else {
+            cout << "color not defined " << endl << endl;
+            cout << "total value $120,00";
+        }
+    }
+
+
+    return 0;
+}
